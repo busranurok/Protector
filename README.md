@@ -10,7 +10,7 @@ PROTECTOR
 ## 🎯 Project Description 
 > It is the application that stores all your passwords.
 
-##### _With this project:_
+#### _With this project:_
 - It allows you to easily and securely store your passwords on a single application.
 - You can access your passwords quickly and share them in any way you wish.
 - The password to be created at the first download can be used to access the data in the application.
