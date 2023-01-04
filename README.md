@@ -31,8 +31,8 @@ PROTECTOR
 ## 🔧 How to Setup
 Just download and run with Xcode
 ## ℹ️ How to Use 
-- add .gif or image
-- add password or username
+- 🎥 Video
+https://user-images.githubusercontent.com/49414644/210568817-9ce2f60d-8b8f-4a44-baf8-d9a15b0eaa15.mp4
 
 ## [🔝 Back to Top](#-follow-this-list) 
 
