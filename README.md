@@ -31,8 +31,8 @@ PROTECTOR
 ## 🔧 How to Setup
 Just download and run with Xcode
 ## ℹ️ How to Use 
-- 🎥 Video
-https://user-images.githubusercontent.com/49414644/210568817-9ce2f60d-8b8f-4a44-baf8-d9a15b0eaa15.mp4
+### 🎥 Video
+- <video src="https://user-images.githubusercontent.com/49414644/210572221-81619ec4-bbd3-4604-972d-7709be48c882.mp4"></video>
 
 ## [🔝 Back to Top](#-follow-this-list) 
 
