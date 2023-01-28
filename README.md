@@ -1,6 +1,8 @@
 # 📋 Project Name
 PROTECTOR
 
+<a href="https://apps.apple.com/tr/app/mars-explorer/id1667968298?l=tr" target="_blank"><img src="https://user-images.githubusercontent.com/49414644/215282404-d930a425-165c-435a-b2ac-a97bddfeb162.png" alt="Download on the App Store" height="90"/></a>
+
 ## 👉 Follow This List
 
 - [🎯 Project Description](#-project-description)
@@ -27,13 +29,26 @@ PROTECTOR
 - Login With Google & Login With Microsoft.
 - Login Face ID / Touch ID.
 - Storing multiple login informations for one application.
+- UI test.
+- Better Design.
+- Styling definitions for textviews and buttons etc.
 
 ## 🔧 How to Setup
-Just download and run with Xcode
+Just download and run with Xcode.
 
 ## ℹ️ How to Use 
 ### 🎥 Video
 - <video src="https://user-images.githubusercontent.com/49414644/210572707-8c96b9ab-8cee-49a8-8028-4b921b174637.mp4"></video>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/49414644/215278969-120b9bcf-b5af-426b-9be6-9005b0401366.png" width="24%" />  
+<img src="https://user-images.githubusercontent.com/49414644/215281951-65e1a807-4cc7-412c-a6d5-0324f8643d44.png" width="24%" />  
+<img src="https://user-images.githubusercontent.com/49414644/215281980-708bdd6c-4ea4-4b93-99df-a74c05ece91b.png" width="24%" />  
+<img src="https://user-images.githubusercontent.com/49414644/215282000-44b6190d-6b86-4de4-b4a9-1f9988665066.png" width="24%" />
+</p>
+<p align="left">
+<img src="https://user-images.githubusercontent.com/49414644/215282029-7ffd4bc6-735a-4d8b-b908-05cbd85ddfde.png" width="24%"/> 
+</p>
 
 ## [🔝 Back to Top](#-follow-this-list) 
 
