@@ -36,10 +36,8 @@ Protector
 ## 🔧 How to Setup
 Just download and run with Xcode.
 
-## ℹ️ How to Use 
-### 🎥 Video
-- <video src="https://user-images.githubusercontent.com/49414644/210572707-8c96b9ab-8cee-49a8-8028-4b921b174637.mp4"></video>
-
+## ℹ️ How to Use
+### 📷 Photo
 <p align="center">
 <img src="https://user-images.githubusercontent.com/49414644/215278969-120b9bcf-b5af-426b-9be6-9005b0401366.png" width="24%" />  
 <img src="https://user-images.githubusercontent.com/49414644/215281951-65e1a807-4cc7-412c-a6d5-0324f8643d44.png" width="24%" />  
@@ -49,6 +47,9 @@ Just download and run with Xcode.
 <p align="left">
 <img src="https://user-images.githubusercontent.com/49414644/215282029-7ffd4bc6-735a-4d8b-b908-05cbd85ddfde.png" width="24%"/> 
 </p>
+
+### 🎥 Video
+- <video src="https://user-images.githubusercontent.com/49414644/210572707-8c96b9ab-8cee-49a8-8028-4b921b174637.mp4"></video>
 
 ## [🔝 Back to Top](#-follow-this-list) 
 
