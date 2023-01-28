@@ -1,5 +1,5 @@
 # 📋 Project Name
-PROTECTOR
+Protector
 
 <a href="https://apps.apple.com/tr/app/mars-explorer/id1667968298?l=tr" target="_blank"><img src="https://user-images.githubusercontent.com/49414644/215282404-d930a425-165c-435a-b2ac-a97bddfeb162.png" alt="Download on the App Store" height="90"/></a>
 
