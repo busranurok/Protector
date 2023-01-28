@@ -37,6 +37,8 @@ Protector
 Just download and run with Xcode.
 
 ## ℹ️ How to Use
+-
+
 ### 📷 Photo
 <p align="center">
 <img src="https://user-images.githubusercontent.com/49414644/215278969-120b9bcf-b5af-426b-9be6-9005b0401366.png" width="24%" />  
@@ -49,7 +51,7 @@ Just download and run with Xcode.
 </p>
 
 ### 🎥 Video
-- <video src="https://user-images.githubusercontent.com/49414644/210572707-8c96b9ab-8cee-49a8-8028-4b921b174637.mp4"></video>
+<video src="https://user-images.githubusercontent.com/49414644/210572707-8c96b9ab-8cee-49a8-8028-4b921b174637.mp4"></video>
 
 ## [🔝 Back to Top](#-follow-this-list) 
 
