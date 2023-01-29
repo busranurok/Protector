@@ -30,6 +30,8 @@ class OnboardingViewController: UIViewController {
                 
             }
             
+         
+            
         }
         
     }
@@ -40,8 +42,7 @@ class OnboardingViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         
-        /*buttonNext.titleLabel?.font =  UIFont(name: "System", size: 20.0)
-        buttonNext.titleLabel?.font = UIFont.boldSystemFont(ofSize: UIFont.buttonFontSize)*/
+        buttonNext.titleLabel?.font =  .systemFont(ofSize: 20.0, weight: .bold)
        
         slides = [
             OnboardingSlide(title: "Şifre unutma derdine son!", description: "Tek bir şifre ile tüm şifrelerinizi kaydedin.", image: UIImage(named: "password")!),
@@ -52,9 +53,6 @@ class OnboardingViewController: UIViewController {
     }
     
     @IBAction func clickedNextButton(_ sender: Any) {
-        
-        buttonNext.titleLabel?.font =  UIFont(name: "System", size: 20.0)
-        buttonNext.titleLabel?.font = UIFont.boldSystemFont(ofSize: UIFont.buttonFontSize)
         
         if currentPage == slides.count - 1 {
             
@@ -71,6 +69,8 @@ class OnboardingViewController: UIViewController {
             collectionView.scrollToItem(at: indextPath, at: .centeredHorizontally, animated: true)
             
         }
+        
+        buttonNext.titleLabel?.font =  .systemFont(ofSize: 20.0, weight: .bold)
        
     }
     
@@ -100,6 +100,7 @@ extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        
         
         let width = scrollView.frame.width
         currentPage = Int(scrollView.contentOffset.x / width)

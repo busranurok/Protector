@@ -33,7 +33,7 @@ class SignUpViewController: UIViewController {
         let underlineAttribute = [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.thick.rawValue, NSAttributedString.Key.foregroundColor : UIColor.systemBlue] as [NSAttributedString.Key : Any]
         let underlineAttributedString = NSAttributedString(string: "Gizlilik sözleşmesini okudum, onaylıyorum.", attributes: underlineAttribute)
         labelPolicy.attributedText = underlineAttributedString
-        
+        checkBoxPrivacyPolicy.isMultipleSelectionEnabled = true
         /*self.navigationItem.title = "Kayıt"
         
         // Renk paletindeki renklere daha yakın olması adına bu işlemi gerçekleştiriyoruz.
@@ -88,7 +88,6 @@ class SignUpViewController: UIViewController {
         
         
     }
-    
     @IBAction func signUp(_ sender: Any) {
         
         if !checkBoxPrivacyPolicy.isSelected {
