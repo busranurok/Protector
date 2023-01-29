@@ -1,0 +1,6 @@
+framework module Pods_Protector_ProtectorUITests {
+  umbrella header "Pods-Protector-ProtectorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

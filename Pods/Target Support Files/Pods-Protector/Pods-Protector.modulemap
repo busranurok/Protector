@@ -1,0 +1,6 @@
+framework module Pods_Protector {
+  umbrella header "Pods-Protector-umbrella.h"
+
+  export *
+  module * { export * }
+}

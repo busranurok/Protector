@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import DLRadioButton
 
 class SignUpViewController: UIViewController {
     
@@ -13,6 +14,8 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var textfieldPassword: GmailFloating!
     @IBOutlet weak var textfieldPasswordAgain: GmailFloating!
     @IBOutlet weak var buttonSignUp: UIButton!
+    @IBOutlet weak var checkBoxPrivacyPolicy: DLRadioButton!
+    @IBOutlet weak var labelPolicy: UILabel!
     @IBOutlet weak var imageViewLock1: UIImageView!
     @IBOutlet weak var imageViewLock2: UIImageView!
     
@@ -23,7 +26,13 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         buttonSignUp.layer.cornerRadius = 30
+        
+        let underlineAttribute = [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.thick.rawValue, NSAttributedString.Key.foregroundColor : UIColor.systemBlue] as [NSAttributedString.Key : Any]
+        let underlineAttributedString = NSAttributedString(string: "Gizlilik sözleşmesini okudum, onaylıyorum.", attributes: underlineAttribute)
+        labelPolicy.attributedText = underlineAttributedString
         
         /*self.navigationItem.title = "Kayıt"
         
@@ -68,6 +77,11 @@ class SignUpViewController: UIViewController {
         imageViewLock2.addGestureRecognizer(tapGestureRecognizer2)
         imageViewLock2.isUserInteractionEnabled = true
         
+        self.labelPolicy.isUserInteractionEnabled = true
+        let tapGestureRecognizer3 = UITapGestureRecognizer(target: self, action: #selector(self.tappedOnLabel))
+        tapGestureRecognizer3.numberOfTapsRequired = 1
+        self.labelPolicy.addGestureRecognizer(tapGestureRecognizer3)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -76,6 +90,23 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func signUp(_ sender: Any) {
+        
+        if !checkBoxPrivacyPolicy.isSelected {
+            
+            let alertController = UIAlertController.init(title: "", message: "Gizlilik sözleşmesini onaylamanız gerekiyor!", preferredStyle: .alert)
+            
+            let okAction = UIAlertAction.init(title: "Tamam", style: .default) { action in
+              
+                return
+            }
+            
+            alertController.addAction(okAction)
+            
+            self.present(alertController, animated: true)
+            
+          
+            
+        }
         
         if let mail = textfieldMail.txtfld.text, let password = textfieldPassword.txtfld.text, let passwordAgain = textfieldPasswordAgain.txtfld.text {
             
@@ -178,6 +209,7 @@ class SignUpViewController: UIViewController {
         
     }
     
+    // MARK: - imageTapped
     @objc func imageTapped(sender: UITapGestureRecognizer) {
         
         if let textfieldPassword = textfieldPassword.txtfld.text {
@@ -207,6 +239,7 @@ class SignUpViewController: UIViewController {
         
     }
     
+    // MARK: - image2Tapped
     @objc func image2Tapped(sender: UITapGestureRecognizer) {
         
         if let textfieldPasswordAgain = textfieldPassword.txtfld.text {
@@ -233,6 +266,15 @@ class SignUpViewController: UIViewController {
             }
             
         }
+        
+    }
+    
+    // MARK: - tappedOnLabel
+    @objc func tappedOnLabel(_ gesture: UITapGestureRecognizer) {
+        
+        let urlString = "https://vakt-ihazar.com/gizliliksozlesmesiprotector.html"
+        let url = URL(string: urlString)!
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
         
     }
     

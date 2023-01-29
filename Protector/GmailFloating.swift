@@ -33,7 +33,7 @@ class GmailFloating: UIView {
     }
 
     @IBInspectable
-    var cornerRadius:CGFloat = 5 {
+    var cornerRadius1:CGFloat = 5 {
         didSet{
             
             vw.layer.cornerRadius = cornerRadius
