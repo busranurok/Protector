@@ -50,8 +50,10 @@ Just download and run with Xcode.
 <img src="https://user-images.githubusercontent.com/49414644/215350742-5fb3b2ed-b152-4204-a9a7-15ed39580072.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350754-4fe718e5-c970-408d-9edf-f9cd77b1d743.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350772-6d215d84-2ee9-4f0a-b633-22db41de77d2.png" width="24%"/>
+<p align="left">
 <img src="https://user-images.githubusercontent.com/49414644/215350867-1d8c1210-5833-49b3-b213-0bef1ff7da0a.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350942-9b090d38-84ec-45c4-9ae5-63e8bae5bbc7.png" width="24%"/> 
+</p>
 </p>
 
 ### 🎥 Video
