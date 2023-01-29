@@ -20,6 +20,7 @@ Protector
 
 ### Tech Stack
 - [UIKit] - User interface
+- [MVC] - 
 - [Storyboard] -
 - [CoreData] - Local Database For Storing Data
 - [MessageUI] - A User Interface for Composing Email and Text Messages
@@ -57,6 +58,7 @@ Just download and run with Xcode.
 
  [UIKit]: <https://developer.apple.com/documentation/uikit>
  [Storyboard]: <>
+ [MVC]: <>
  [CoreData]: <https://developer.apple.com/documentation/coredata>
  [MessageUI]: <https://developer.apple.com/documentation/messageui>
  [UserDefaults]: <https://developer.apple.com/documentation/foundation/userdefaults>
