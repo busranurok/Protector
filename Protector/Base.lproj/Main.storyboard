@@ -472,23 +472,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eJg-Ps-mrt" customClass="CHIOTPFieldOne" customModule="CHIOTPField">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eJg-Ps-mrt" customClass="CHIOTPFieldOne" customModule="CHIOTPField">
                                 <rect key="frame" x="87.5" y="84" width="200" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="CJz-VF-ZXz"/>
                                     <constraint firstAttribute="width" constant="200" id="q7d-A3-OmD"/>
                                 </constraints>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="numberOfDigits">
                                         <integer key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="6"/>
+                                        <real key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="spacing">
                                         <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="boxBackgroundColor">
+                                        <color key="value" systemColor="systemGray5Color"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
@@ -1052,6 +1058,11 @@
             <point key="canvasLocation" x="1628" y="757"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="eJg-Ps-mrt">
+            <size key="intrinsicContentSize" width="4" height="16"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="hT5-or-N1Q"/>
         <segue reference="B3b-bB-LOh"/>

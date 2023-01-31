@@ -54,6 +54,18 @@ class PinViewController: UIViewController {
         
         if pins.count == 0 || pins.first?.pin == nil || pins.first?.pin == "" {
             
+            if pinTextfield.text == "" {
+                
+                let alertController = UIAlertController.init(title: "", message: "Pin boş geçilemez!", preferredStyle: .alert)
+                
+                let okAction = UIAlertAction.init(title: "Tamam", style: .default, handler: nil)
+                
+                alertController.addAction(okAction)
+                
+                present(alertController, animated: true)
+                
+            }
+            
             // DB de kayıtlı bir pin yok, yeni pin oluşturulacak!
             // Insert işlemi
             let newPin = Pin(context: managementContext)
