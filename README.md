@@ -64,6 +64,8 @@ Just download and run with Xcode.
 </p>
 
 ### 🎥 Video
+> App Store didn't allow to account creation. Because of that, I changed login logic with pin.
+> Version1
 <video src="https://user-images.githubusercontent.com/49414644/210572707-8c96b9ab-8cee-49a8-8028-4b921b174637.mp4"></video>
 
 ## [🔝 Back to Top](#-follow-this-list) 
