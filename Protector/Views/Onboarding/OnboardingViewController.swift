@@ -12,7 +12,7 @@ class OnboardingViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var buttonNext: UIButton!
     @IBOutlet weak var pageControl: UIPageControl!
-    
+   
     var slides : [OnboardingSlide] = []
     var currentPage = 0 {
         
@@ -29,8 +29,6 @@ class OnboardingViewController: UIViewController {
                 buttonNext.setTitle("İleri", for: .normal)
                 
             }
-            
-         
             
         }
         
@@ -56,7 +54,7 @@ class OnboardingViewController: UIViewController {
         
         if currentPage == slides.count - 1 {
             
-            let controller = storyboard?.instantiateViewController(identifier: "SignInNavigationController") as! UINavigationController
+            let controller = storyboard?.instantiateViewController(identifier: "PinNavigationController") as! UINavigationController
             controller.modalPresentationStyle = .fullScreen
             controller.modalTransitionStyle = .flipHorizontal
             present(controller, animated: true)
@@ -100,7 +98,6 @@ extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-        
         
         let width = scrollView.frame.width
         currentPage = Int(scrollView.contentOffset.x / width)

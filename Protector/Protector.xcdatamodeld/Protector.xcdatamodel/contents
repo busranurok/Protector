@@ -7,6 +7,9 @@
         <attribute name="siteName" optional="YES" attributeType="String"/>
         <attribute name="username" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="Pin" representedClassName="Pin" syncable="YES" codeGenerationType="class">
+        <attribute name="pin" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
         <attribute name="mail" optional="YES" attributeType="String"/>
         <attribute name="password" optional="YES" attributeType="String"/>

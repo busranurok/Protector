@@ -57,7 +57,7 @@ class SignInViewController: UIViewController {
                 labelDoNotHaveAnAccount.isHidden = true
                 buttonSignUp.isHidden = true
                 
-            }else{
+            }else {
                 
                 buttonUserInformation.isHidden = true
                 labelDoNotHaveAnAccount.isHidden = false

@@ -29,7 +29,6 @@ class PasswordDetailViewController: UIViewController {
             labelMail.text = information.username
             labelPassword.text = information.password
             
-            
         }
         
     }

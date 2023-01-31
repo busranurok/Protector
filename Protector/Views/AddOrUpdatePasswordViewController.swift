@@ -68,7 +68,6 @@ class AddOrUpdatePasswordViewController: UIViewController {
         imageViewLock.addGestureRecognizer(tapGestureRecognizer)
         imageViewLock.isUserInteractionEnabled = true
         
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {

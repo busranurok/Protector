@@ -17,5 +17,13 @@ target 'Protector' do
   end
 
   pod 'DLRadioButton', '~> 1.4.7'
+  
+  pod 'CHIOTPField', '~> 0.1'
+
+  # individual page control
+  pod 'CHIOTPField/One'
+  pod 'CHIOTPField/Two'
+  pod 'CHIOTPField/Three'
+  pod 'CHIOTPField/Four'
 
 end

@@ -1,0 +1,93 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1j5-U0-OcK"; */
+"1j5-U0-OcK.text" = "Label";
+
+/* Class = "UISearchBar"; placeholder = "Site Adı ile Arama Yap"; ObjectID = "2VC-x1-lZM"; */
+"2VC-x1-lZM.placeholder" = "Site Adı ile Arama Yap";
+
+/* Class = "UISearchBar"; 2VC-x1-lZM.scopeButtonTitles[0] = "Hepsi"; ObjectID = "2VC-x1-lZM"; */
+"2VC-x1-lZM.scopeButtonTitles[0]" = "Hepsi";
+
+/* Class = "UISearchBar"; 2VC-x1-lZM.scopeButtonTitles[1] = "Banka"; ObjectID = "2VC-x1-lZM"; */
+"2VC-x1-lZM.scopeButtonTitles[1]" = "Banka";
+
+/* Class = "UISearchBar"; 2VC-x1-lZM.scopeButtonTitles[2] = "E-posta"; ObjectID = "2VC-x1-lZM"; */
+"2VC-x1-lZM.scopeButtonTitles[2]" = "E-posta";
+
+/* Class = "UISearchBar"; 2VC-x1-lZM.scopeButtonTitles[3] = "Alışveriş"; ObjectID = "2VC-x1-lZM"; */
+"2VC-x1-lZM.scopeButtonTitles[3]" = "Alışveriş";
+
+/* Class = "UISearchBar"; 2VC-x1-lZM.scopeButtonTitles[4] = "Diğer"; ObjectID = "2VC-x1-lZM"; */
+"2VC-x1-lZM.scopeButtonTitles[4]" = "Diğer";
+
+/* Class = "UIButton"; normalTitle = "KAYDET"; ObjectID = "2mA-b1-CHh"; */
+"2mA-b1-CHh.normalTitle" = "KAYDET";
+
+/* Class = "UIButton"; normalTitle = "GİRİŞ YAP"; ObjectID = "2uq-qr-Rtx"; */
+"2uq-qr-Rtx.normalTitle" = "GİRİŞ YAP";
+
+/* Class = "UILabel"; text = "Tek bir şifre ile tüm şifrelerinizi kaydedin."; ObjectID = "3Id-yb-oxE"; */
+"3Id-yb-oxE.text" = "Tek bir şifre ile tüm şifrelerinizi kaydedin.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4ky-tz-eyT"; */
+"4ky-tz-eyT.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "KAYIT OL"; ObjectID = "A4T-q6-W7q"; */
+"A4T-q6-W7q.normalTitle" = "KAYIT OL";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BTf-cq-iKe"; */
+"BTf-cq-iKe.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Bza-kO-AYb"; */
+"Bza-kO-AYb.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "D2N-4q-uSK"; */
+"D2N-4q-uSK.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "PROTECTOR"; ObjectID = "G7z-BI-obx"; */
+"G7z-BI-obx.text" = "PROTECTOR";
+
+/* Class = "UILabel"; text = "Hesabınız yok mu?"; ObjectID = "HAI-Cw-WPi"; */
+"HAI-Cw-WPi.text" = "Hesabınız yok mu?";
+
+/* Class = "UINavigationItem"; title = "Anasayfa"; ObjectID = "JA8-AK-moA"; */
+"JA8-AK-moA.title" = "Anasayfa";
+
+/* Class = "UILabel"; text = "ŞİFRE"; ObjectID = "KOc-8T-rw5"; */
+"KOc-8T-rw5.text" = "ŞİFRE";
+
+/* Class = "UIButton"; normalTitle = "KAYDET"; ObjectID = "RLO-bj-UD2"; */
+"RLO-bj-UD2.normalTitle" = "KAYDET";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YbX-qY-sBR"; */
+"YbX-qY-sBR.text" = "Label";
+
+/* Class = "UILabel"; text = "SİTE ADI"; ObjectID = "aYa-qn-Gwl"; */
+"aYa-qn-Gwl.text" = "SİTE ADI";
+
+/* Class = "UILabel"; text = "Kategori:"; ObjectID = "b3E-Dw-zmb"; */
+"b3E-Dw-zmb.text" = "Kategori:";
+
+/* Class = "UILabel"; text = "KATEGORİ ADI"; ObjectID = "dP5-3m-YH3"; */
+"dP5-3m-YH3.text" = "KATEGORİ ADI";
+
+/* Class = "UILabel"; text = "Gizlilik sözleşmesini okudum, onaylıyorum."; ObjectID = "ihv-A8-Nfg"; */
+"ihv-A8-Nfg.text" = "Gizlilik sözleşmesini okudum, onaylıyorum.";
+
+/* Class = "UIButton"; normalTitle = "KULLANICI BİLGİLERİ"; ObjectID = "jKZ-mF-0p2"; */
+"jKZ-mF-0p2.normalTitle" = "KULLANICI BİLGİLERİ";
+
+/* Class = "UILabel"; text = "E-POSTA"; ObjectID = "lJN-Hk-gYT"; */
+"lJN-Hk-gYT.text" = "E-POSTA";
+
+/* Class = "UIButton"; normalTitle = "İleri"; ObjectID = "miX-lr-b0W"; */
+"miX-lr-b0W.normalTitle" = "İleri";
+
+/* Class = "UILabel"; text = "Şifre kaydetmek için birebir çözüm."; ObjectID = "o3Z-By-Rc1"; */
+"o3Z-By-Rc1.text" = "Şifre kaydetmek için birebir çözüm.";
+
+/* Class = "UILabel"; text = "Site Adı:"; ObjectID = "rxo-se-5uu"; */
+"rxo-se-5uu.text" = "Site Adı:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ydo-gZ-TdB"; */
+"ydo-gZ-TdB.text" = "Label";

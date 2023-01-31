@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F33F1352989B36B00023889 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F33F1342989B36B00023889 /* PinViewController.swift */; };
 		1F89773528F9E9AF00275733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89773428F9E9AF00275733 /* AppDelegate.swift */; };
 		1F89773728F9E9AF00275733 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89773628F9E9AF00275733 /* SceneDelegate.swift */; };
 		1F89773928F9E9AF00275733 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89773828F9E9AF00275733 /* SignInViewController.swift */; };
@@ -64,6 +65,10 @@
 
 /* Begin PBXFileReference section */
 		0E7FECDE16CBD2DDBDFC4C41 /* Pods-Protector-ProtectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Protector-ProtectorUITests.release.xcconfig"; path = "Target Support Files/Pods-Protector-ProtectorUITests/Pods-Protector-ProtectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F33F1342989B36B00023889 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
+		1F54B84A2986F34E00BC4BB8 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		1F54B84B2986F34E00BC4BB8 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1F54B84C2986F34E00BC4BB8 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		1F7DF40929819BC900267A83 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		1F7DF40C29819BC900267A83 /* AccountAuthenticationModificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAuthenticationModificationViewController.swift; sourceTree = "<group>"; };
 		1F7DF40F29819BC900267A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -227,6 +232,7 @@
 				1F89776928F9EFBA00275733 /* HomeViewController.swift */,
 				1F89776F28F9FF5200275733 /* AddOrUpdatePasswordViewController.swift */,
 				1F89777128FA028C00275733 /* PasswordDetailViewController.swift */,
+				1F33F1342989B36B00023889 /* PinViewController.swift */,
 				1F9B00C82985D7E100D8B0A9 /* Onboarding */,
 			);
 			path = Views;
@@ -361,6 +367,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 1F89772828F9E9AF00275733;
 			productRefGroup = 1F89773228F9E9AF00275733 /* Products */;
@@ -517,6 +524,7 @@
 				1F9B00D12985E26000D8B0A9 /* OnboardingCollectionViewCell.swift in Sources */,
 				1F89776828F9EA2B00275733 /* GmailFloating.swift in Sources */,
 				1F9B00CD2985DCB200D8B0A9 /* UIView+Extension.swift in Sources */,
+				1F33F1352989B36B00023889 /* PinViewController.swift in Sources */,
 				1F89777228FA028C00275733 /* PasswordDetailViewController.swift in Sources */,
 				1F9B00CF2985DDC400D8B0A9 /* OnboardingSlide.swift in Sources */,
 				1F89773728F9E9AF00275733 /* SceneDelegate.swift in Sources */,
@@ -563,6 +571,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1F7DF40F29819BC900267A83 /* Base */,
+				1F54B84C2986F34E00BC4BB8 /* tr */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -571,6 +580,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1F89773B28F9E9AF00275733 /* Base */,
+				1F54B84A2986F34E00BC4BB8 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -579,6 +589,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1F89774328F9E9AF00275733 /* Base */,
+				1F54B84B2986F34E00BC4BB8 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -590,6 +601,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -650,6 +662,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -718,7 +731,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -754,7 +767,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

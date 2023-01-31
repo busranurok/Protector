@@ -1,0 +1,6 @@
+framework module CHIOTPField {
+  umbrella header "CHIOTPField-umbrella.h"
+
+  export *
+  module * { export * }
+}

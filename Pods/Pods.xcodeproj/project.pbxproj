@@ -7,38 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B2A3E1D8488055BCB009636F113B7C9 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4570AC68CAD26A4B210C89FFC759705E /* DLRadioButton.m */; };
+		0C3E413CA7F026333A902C1C69962013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		184AC97C82D418CB1767BF946264F25A /* CHIOTPField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECE677E4A606CCA5CFFB39CC444DA4C /* CHIOTPField-dummy.m */; };
+		1B2A3E1D8488055BCB009636F113B7C9 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E71D3F03DCD18D5FD50AE2C08D037 /* DLRadioButton.m */; };
+		25F4247C8510B49D352935BA784792DC /* CHIOTPFieldFourLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7024296E36EE9B157DE03249F9397F /* CHIOTPFieldFourLabel.swift */; };
 		2DE42DFAE339152406C0BC63BE763340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4538C8324A3BD8A35EBE633F1242F9BD /* Pods-Protector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB48EB201CC9E15883F72CD3AEF926 /* Pods-Protector-dummy.m */; };
+		31598CDE82FEDDE9058EB9C730A8C285 /* CHIOTPFieldTwoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7ECB5455C4CF637D8359C66096C39 /* CHIOTPFieldTwoLabel.swift */; };
+		39A0A6FD7854941AD9229644035CDB23 /* CHIOTPFieldThreeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B707138AD438A3E56D2AB91E47C34E4 /* CHIOTPFieldThreeLabel.swift */; };
+		439DD317EF4A73D51EF65F92CA528F63 /* Pods-Protector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C65CB76E7E1354B60122253EC857974 /* Pods-Protector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46AF4BBDFCBCD8E480E479EC847E3542 /* Pods-Protector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB48EB201CC9E15883F72CD3AEF926 /* Pods-Protector-dummy.m */; };
 		5032F55D862BC8470277EAC407B89EC3 /* Pods-ProtectorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD59B4EF0BA861060AFE4E6B1709AE /* Pods-ProtectorTests-dummy.m */; };
-		57EBCFB1CA3D51CBAB464A240DF6BEFD /* Pods-Protector-ProtectorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55783DE38BE920321B5BC7A98722829F /* Pods-Protector-ProtectorUITests-dummy.m */; };
-		63F2E9EC6A2D10BBB8DD6CE9C261C237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		78953B88386EB2E7A3B1878537851318 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0B5E007E8747243E146D4DBC4126E2 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		885A23FCB05D04C31AEB047864D6B0F9 /* Pods-Protector-ProtectorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC51B13D76BAEB9576CFE2642D56787 /* Pods-Protector-ProtectorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DC27195BA1C54FC949AD1AB3D66B226 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2971E1D64C3D267B79457EB82B1D0639 /* DLRadioButton-dummy.m */; };
+		50BFBACEF843304F9B104A891FA9D96A /* CHIOTPFieldThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B9F9A0D0EDC0DC39D7313083542EF /* CHIOTPFieldThree.swift */; };
+		5B1D45279337DB8BA36290642098050D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5B3D3CEB670143497B2605DA022ECB50 /* Pods-Protector-ProtectorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55783DE38BE920321B5BC7A98722829F /* Pods-Protector-ProtectorUITests-dummy.m */; };
+		5D9DBD3DCD3DD7CC74B8691213BF2E0B /* CHIOTPField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12354F2A9B4A71B07F3E8594EF7FE9CF /* CHIOTPField.swift */; };
+		619D4A3F93A9608497B9FFBC482612EC /* CHIOTPField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C045E9E78BD70BBDBCA4270DDB1715E /* CHIOTPField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78953B88386EB2E7A3B1878537851318 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C85D02F29C083845AACB1B4BBFB7FCE9 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC27195BA1C54FC949AD1AB3D66B226 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF75AC3DBBBB665C1F8CC4FDD081B80 /* DLRadioButton-dummy.m */; };
 		8E29644A7CCEF2704A89CDDD6EBFD4DC /* Pods-ProtectorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9B9564443C23D210720AB8FBF22509 /* Pods-ProtectorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99ABEA24A145903D11B5D4888D693753 /* Pods-Protector-ProtectorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC51B13D76BAEB9576CFE2642D56787 /* Pods-Protector-ProtectorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BDF600E161D1F30FA6CC596AE211AB6 /* CHIOTPFieldTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A270B8E314FAEE36E91B6C73100DAC /* CHIOTPFieldTwo.swift */; };
 		A14CA14D8C9EFD9612EF710A1547DF93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C3421342F0326F99B86139CD3B7F8A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F3579B030CCB270667A0390E7D9CF30A /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 628B13222FE228E41E7264A01ACEB76A /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCE90368E7B6F412024A72FA82E2B508 /* Pods-Protector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C65CB76E7E1354B60122253EC857974 /* Pods-Protector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61CCA76E7B9AD663CC54E5F4C6290A1 /* CHIOTPFieldOneLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF572D2645C1279CA4BB499A2D65444 /* CHIOTPFieldOneLabel.swift */; };
+		BE8D87E9D13B2442195F465B84E3DE57 /* OTPLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CE90B6D443C079E6DB4D637E6E579 /* OTPLabel.swift */; };
+		CB388B0CFB5597E5DBA215A4FA90C285 /* CHIOTPFieldOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3810E116DD93F030041CE73B409638 /* CHIOTPFieldOne.swift */; };
+		CC39133D4C3AD7B8C05C1E25FDA0652C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB1349B2AE88662D69CD282A91FB4E7C /* CHIOTPFieldFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB779A00750E374E97CB91B7E1EF22 /* CHIOTPFieldFour.swift */; };
+		F3579B030CCB270667A0390E7D9CF30A /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4237DDB14DA76CE7CCD27207F126F8 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6452F2822AFA748DBB4AD66C77625E3F /* PBXContainerItemProxy */ = {
+		1A14FF3BA5F4AD2A997FA2DD96A9ACCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 31F16FE6F549BCC81D23176C33BCB1AC;
 			remoteInfo = "Pods-Protector";
 		};
-		7733E503E698750CE449ED1049E501D9 /* PBXContainerItemProxy */ = {
+		468194A98D9F30612F3787318AEF0439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3802DE25FD87315162839684885A04;
+			remoteInfo = CHIOTPField;
+		};
+		761658BAB1A8B068BBCB5C9C1AB75F4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BED8F38B6D4A3AD6DFF85D18F9F09435;
 			remoteInfo = DLRadioButton;
 		};
-		88C8C4FA0EA738C1EBB054A5BF41842B /* PBXContainerItemProxy */ = {
+		8C9C29A75DBBDA8313DBC36BD7010729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C3802DE25FD87315162839684885A04;
+			remoteInfo = CHIOTPField;
+		};
+		BA42063D2F9E9D359BCFA91D4CC01B44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -50,53 +77,79 @@
 /* Begin PBXFileReference section */
 		00C1A08EF4BB4FFA320D562CB64E2842 /* Pods-Protector-ProtectorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Protector-ProtectorUITests-frameworks.sh"; sourceTree = "<group>"; };
 		02BE3403DEE2FF044CBB717D5C8D971E /* Pods-Protector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Protector.modulemap"; sourceTree = "<group>"; };
+		04D7ECB5455C4CF637D8359C66096C39 /* CHIOTPFieldTwoLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldTwoLabel.swift; path = Sources/CHIOTPFieldTwo/CHIOTPFieldTwoLabel.swift; sourceTree = "<group>"; };
+		052F4023CE95801D4EE3970C0E069D7A /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		05A270B8E314FAEE36E91B6C73100DAC /* CHIOTPFieldTwo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldTwo.swift; path = Sources/CHIOTPFieldTwo/CHIOTPFieldTwo.swift; sourceTree = "<group>"; };
 		077D12973D13E9D973A1F3174A669C03 /* Pods-ProtectorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProtectorTests-Info.plist"; sourceTree = "<group>"; };
-		07DF32AE3A5D3FAC8320EDD23F582536 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
 		085FBCCCF7BFD10B10844FB300BF444B /* Pods-Protector-ProtectorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Protector-ProtectorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D9854DF2E466452721C847D655697B3 /* DLRadioButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.debug.xcconfig; sourceTree = "<group>"; };
+		12354F2A9B4A71B07F3E8594EF7FE9CF /* CHIOTPField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPField.swift; path = Sources/Base/CHIOTPField.swift; sourceTree = "<group>"; };
 		1AD752322D86D6822BFF75A83F1EACE7 /* Pods-Protector-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Protector-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C045E9E78BD70BBDBCA4270DDB1715E /* CHIOTPField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIOTPField-umbrella.h"; sourceTree = "<group>"; };
 		1EE23F10069C1C192076EEF5E83928A7 /* Pods-Protector-ProtectorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Protector-ProtectorUITests-Info.plist"; sourceTree = "<group>"; };
 		22304EC81F0B7DC94A6502DFD6CBD19D /* Pods-Protector */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Protector"; path = Pods_Protector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CB779A00750E374E97CB91B7E1EF22 /* CHIOTPFieldFour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldFour.swift; path = Sources/CHIOTPFieldFour/CHIOTPFieldFour.swift; sourceTree = "<group>"; };
 		2623747D9AFFAC2584428F6A9F0E7D87 /* Pods-Protector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Protector.debug.xcconfig"; sourceTree = "<group>"; };
-		2971E1D64C3D267B79457EB82B1D0639 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
 		2C65CB76E7E1354B60122253EC857974 /* Pods-Protector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Protector-umbrella.h"; sourceTree = "<group>"; };
 		3035EEF7F2F7A46063FBB8EAEC013340 /* Pods-Protector-ProtectorUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Protector-ProtectorUITests"; path = Pods_Protector_ProtectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		304CE90B6D443C079E6DB4D637E6E579 /* OTPLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPLabel.swift; path = Sources/Base/OTPLabel.swift; sourceTree = "<group>"; };
 		3AFD59B4EF0BA861060AFE4E6B1709AE /* Pods-ProtectorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProtectorTests-dummy.m"; sourceTree = "<group>"; };
+		3B707138AD438A3E56D2AB91E47C34E4 /* CHIOTPFieldThreeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldThreeLabel.swift; path = Sources/CHIOTPFieldThree/CHIOTPFieldThreeLabel.swift; sourceTree = "<group>"; };
 		3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E46B3E7C01F9D2874C0FEA440E50C5A /* Pods-ProtectorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProtectorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4570AC68CAD26A4B210C89FFC759705E /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		3ECE677E4A606CCA5CFFB39CC444DA4C /* CHIOTPField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHIOTPField-dummy.m"; sourceTree = "<group>"; };
+		4C5E71D3F03DCD18D5FD50AE2C08D037 /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
 		5237AA85FACB6CD490F866C55B11AB08 /* Pods-Protector-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Protector-frameworks.sh"; sourceTree = "<group>"; };
 		55783DE38BE920321B5BC7A98722829F /* Pods-Protector-ProtectorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Protector-ProtectorUITests-dummy.m"; sourceTree = "<group>"; };
 		589249D21747682475BB781683FA7E94 /* Pods-Protector-ProtectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Protector-ProtectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A50960EC479F40D1149D9847A0D82A8 /* DLRadioButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.debug.xcconfig; sourceTree = "<group>"; };
 		5DE7FFF38FCA9D11A215203B2AC49E05 /* Pods-ProtectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProtectorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		628B13222FE228E41E7264A01ACEB76A /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
 		64F927C6E9A69670572FD7ED64C5B4CA /* Pods-Protector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Protector.release.xcconfig"; sourceTree = "<group>"; };
-		66277072A9718E117DE3351FB84BE91B /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		6F1682A9D9BFC2794DCA4182D17C0117 /* CHIOTPField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIOTPField.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7323AF940A8B7DDCFAEB109BB51FC9DC /* CHIOTPField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIOTPField-prefix.pch"; sourceTree = "<group>"; };
 		7F9B9564443C23D210720AB8FBF22509 /* Pods-ProtectorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProtectorTests-umbrella.h"; sourceTree = "<group>"; };
-		80B55099E7394459DF14ED9402711697 /* DLRadioButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.release.xcconfig; sourceTree = "<group>"; };
 		82CB48EB201CC9E15883F72CD3AEF926 /* Pods-Protector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Protector-dummy.m"; sourceTree = "<group>"; };
-		99C3535D7D1C218532EDD3B302F196E3 /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF572D2645C1279CA4BB499A2D65444 /* CHIOTPFieldOneLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldOneLabel.swift; path = Sources/CHIOTPFieldOne/CHIOTPFieldOneLabel.swift; sourceTree = "<group>"; };
 		A1C56A63D165892C3E0C2B4297746F32 /* Pods-ProtectorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProtectorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3EB2ABE5ACC016CC241B811CFE425BB /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
 		A5D5447B27057E306C2B5D094AE3B068 /* Pods-ProtectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProtectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0902A476FC399272D8FE87265E13E3A /* CHIOTPField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHIOTPField-Info.plist"; sourceTree = "<group>"; };
+		B3090ACF02A73C68BA09AEF602F12DF2 /* DLRadioButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.release.xcconfig; sourceTree = "<group>"; };
 		B360A85A3D69934D2BB6C1F8A17C21AE /* Pods-Protector-ProtectorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Protector-ProtectorUITests.modulemap"; sourceTree = "<group>"; };
+		BA4237DDB14DA76CE7CCD27207F126F8 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		BF3810E116DD93F030041CE73B409638 /* CHIOTPFieldOne.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldOne.swift; path = Sources/CHIOTPFieldOne/CHIOTPFieldOne.swift; sourceTree = "<group>"; };
 		C062481A86F91CDC822E1F0918D80BD3 /* Pods-Protector-ProtectorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Protector-ProtectorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C85D02F29C083845AACB1B4BBFB7FCE9 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		C99E8465867E128F62D5DF12809A7E57 /* CHIOTPField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIOTPField.release.xcconfig; sourceTree = "<group>"; };
+		CDF75AC3DBBBB665C1F8CC4FDD081B80 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		CF7024296E36EE9B157DE03249F9397F /* CHIOTPFieldFourLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldFourLabel.swift; path = Sources/CHIOTPFieldFour/CHIOTPFieldFourLabel.swift; sourceTree = "<group>"; };
+		D13F1D9DB51E3D50C46340555EEA85FD /* CHIOTPField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHIOTPField.modulemap; sourceTree = "<group>"; };
+		D2CE9B449E089CD356CC4A54329FEE79 /* CHIOTPField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHIOTPField; path = CHIOTPField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F9F0B0A337245FF077B54A4EC888B7 /* Pods-ProtectorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ProtectorTests"; path = Pods_ProtectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3ACDC92FF4A3D6BFAD2B2F4888A0B1C /* Pods-Protector-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Protector-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4EA2DCDC704295C79D8626719547A1F /* Pods-ProtectorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProtectorTests.modulemap"; sourceTree = "<group>"; };
-		DC0B5E007E8747243E146D4DBC4126E2 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		E02F37F0A87A61AD131BCC0642276AB2 /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
 		E1B19615A17D25EF8216695A3F3DDD12 /* Pods-Protector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Protector-Info.plist"; sourceTree = "<group>"; };
+		EB5B9F9A0D0EDC0DC39D7313083542EF /* CHIOTPFieldThree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldThree.swift; path = Sources/CHIOTPFieldThree/CHIOTPFieldThree.swift; sourceTree = "<group>"; };
 		EBDF0B06652FFFC5256ABBD5E56723F3 /* Pods-Protector-ProtectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Protector-ProtectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDC51B13D76BAEB9576CFE2642D56787 /* Pods-Protector-ProtectorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Protector-ProtectorUITests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		439B57ABFA56C29ED2955E2974E20A20 /* Frameworks */ = {
+		48EA25DEE8FC6F36C853E3C6D3F0BD04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F2E9EC6A2D10BBB8DD6CE9C261C237 /* Foundation.framework in Frameworks */,
+				5B1D45279337DB8BA36290642098050D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD57ECD93771C7997DE93D9FE3EAA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC39133D4C3AD7B8C05C1E25FDA0652C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,26 +169,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7E648F73398369DDBAF187A1F5D70AA /* Frameworks */ = {
+		DE3AC84F048D5D4DB00EC56A4E3F846C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3421342F0326F99B86139CD3B7F8A70 /* Foundation.framework in Frameworks */,
+				0C3E413CA7F026333A902C1C69962013 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F4DA96F1395001DE8C5ECD4EAD77C8A /* Products */ = {
+		1309664A86798EF4A3354DB7B4742BC6 /* Three */ = {
 			isa = PBXGroup;
 			children = (
-				3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton */,
-				22304EC81F0B7DC94A6502DFD6CBD19D /* Pods-Protector */,
-				3035EEF7F2F7A46063FBB8EAEC013340 /* Pods-Protector-ProtectorUITests */,
-				D2F9F0B0A337245FF077B54A4EC888B7 /* Pods-ProtectorTests */,
 			);
-			name = Products;
+			name = Three;
 			sourceTree = "<group>";
 		};
 		1F632A34F4AA7CE61BDC28E46BA15BBB /* Pods-Protector */ = {
@@ -153,6 +202,34 @@
 			);
 			name = "Pods-Protector";
 			path = "Target Support Files/Pods-Protector";
+			sourceTree = "<group>";
+		};
+		3A3DC1C205AD298B28ACA8B30C976002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BDF737E4D026A2CA0E58F038A2760D2 /* CHIOTPField */,
+				BAD178E4951700F3383600D2ACEBC3C7 /* DLRadioButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A4E27559E91455BFBE05A1D69ECDFC7 /* Four */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Four;
+			sourceTree = "<group>";
+		};
+		3EFF1DD364FA42B8D8AEAF72F164931D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE9B449E089CD356CC4A54329FEE79 /* CHIOTPField */,
+				3E26BA03994713FBEB9C3406695782F1 /* DLRadioButton */,
+				22304EC81F0B7DC94A6502DFD6CBD19D /* Pods-Protector */,
+				3035EEF7F2F7A46063FBB8EAEC013340 /* Pods-Protector-ProtectorUITests */,
+				D2F9F0B0A337245FF077B54A4EC888B7 /* Pods-ProtectorTests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4A881DB5E1BF51C6A032B5519B290D2B /* Pods-Protector-ProtectorUITests */ = {
@@ -180,6 +257,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5BDF737E4D026A2CA0E58F038A2760D2 /* CHIOTPField */ = {
+			isa = PBXGroup;
+			children = (
+				12354F2A9B4A71B07F3E8594EF7FE9CF /* CHIOTPField.swift */,
+				25CB779A00750E374E97CB91B7E1EF22 /* CHIOTPFieldFour.swift */,
+				CF7024296E36EE9B157DE03249F9397F /* CHIOTPFieldFourLabel.swift */,
+				BF3810E116DD93F030041CE73B409638 /* CHIOTPFieldOne.swift */,
+				9FF572D2645C1279CA4BB499A2D65444 /* CHIOTPFieldOneLabel.swift */,
+				EB5B9F9A0D0EDC0DC39D7313083542EF /* CHIOTPFieldThree.swift */,
+				3B707138AD438A3E56D2AB91E47C34E4 /* CHIOTPFieldThreeLabel.swift */,
+				05A270B8E314FAEE36E91B6C73100DAC /* CHIOTPFieldTwo.swift */,
+				04D7ECB5455C4CF637D8359C66096C39 /* CHIOTPFieldTwoLabel.swift */,
+				304CE90B6D443C079E6DB4D637E6E579 /* OTPLabel.swift */,
+				3A4E27559E91455BFBE05A1D69ECDFC7 /* Four */,
+				B5AD80E4CD4B1B32FEB1CBE4E871D566 /* One */,
+				CA66B1463A836C62C94453C108AAB338 /* Support Files */,
+				1309664A86798EF4A3354DB7B4742BC6 /* Three */,
+				F5B817FE4233D9819BD7551488BC4D9F /* Two */,
+			);
+			name = CHIOTPField;
+			path = CHIOTPField;
+			sourceTree = "<group>";
+		};
 		78929A07CA70B01B868E1F7D675C1229 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,12 +290,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9A650DF3D8C3D03343460EC96E0D7119 /* Pods */ = {
+		B5AD80E4CD4B1B32FEB1CBE4E871D566 /* One */ = {
 			isa = PBXGroup;
 			children = (
-				E48FBFB5E3D0A475C5D89D39DD481B69 /* DLRadioButton */,
 			);
-			name = Pods;
+			name = One;
+			sourceTree = "<group>";
+		};
+		BAD178E4951700F3383600D2ACEBC3C7 /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				BA4237DDB14DA76CE7CCD27207F126F8 /* DLRadioButton.h */,
+				4C5E71D3F03DCD18D5FD50AE2C08D037 /* DLRadioButton.m */,
+				D980572899459FEEF403F3E12AC33C30 /* Support Files */,
+			);
+			name = DLRadioButton;
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		CA66B1463A836C62C94453C108AAB338 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D13F1D9DB51E3D50C46340555EEA85FD /* CHIOTPField.modulemap */,
+				3ECE677E4A606CCA5CFFB39CC444DA4C /* CHIOTPField-dummy.m */,
+				B0902A476FC399272D8FE87265E13E3A /* CHIOTPField-Info.plist */,
+				7323AF940A8B7DDCFAEB109BB51FC9DC /* CHIOTPField-prefix.pch */,
+				1C045E9E78BD70BBDBCA4270DDB1715E /* CHIOTPField-umbrella.h */,
+				6F1682A9D9BFC2794DCA4182D17C0117 /* CHIOTPField.debug.xcconfig */,
+				C99E8465867E128F62D5DF12809A7E57 /* CHIOTPField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHIOTPField";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -203,8 +328,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9A650DF3D8C3D03343460EC96E0D7119 /* Pods */,
-				1F4DA96F1395001DE8C5ECD4EAD77C8A /* Products */,
+				3A3DC1C205AD298B28ACA8B30C976002 /* Pods */,
+				3EFF1DD364FA42B8D8AEAF72F164931D /* Products */,
 				78929A07CA70B01B868E1F7D675C1229 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -217,27 +342,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E48FBFB5E3D0A475C5D89D39DD481B69 /* DLRadioButton */ = {
+		D980572899459FEEF403F3E12AC33C30 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				628B13222FE228E41E7264A01ACEB76A /* DLRadioButton.h */,
-				4570AC68CAD26A4B210C89FFC759705E /* DLRadioButton.m */,
-				EF77EDC3C54D8075EC398E1F0326144A /* Support Files */,
-			);
-			name = DLRadioButton;
-			path = DLRadioButton;
-			sourceTree = "<group>";
-		};
-		EF77EDC3C54D8075EC398E1F0326144A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				66277072A9718E117DE3351FB84BE91B /* DLRadioButton.modulemap */,
-				2971E1D64C3D267B79457EB82B1D0639 /* DLRadioButton-dummy.m */,
-				99C3535D7D1C218532EDD3B302F196E3 /* DLRadioButton-Info.plist */,
-				07DF32AE3A5D3FAC8320EDD23F582536 /* DLRadioButton-prefix.pch */,
-				DC0B5E007E8747243E146D4DBC4126E2 /* DLRadioButton-umbrella.h */,
-				0D9854DF2E466452721C847D655697B3 /* DLRadioButton.debug.xcconfig */,
-				80B55099E7394459DF14ED9402711697 /* DLRadioButton.release.xcconfig */,
+				E02F37F0A87A61AD131BCC0642276AB2 /* DLRadioButton.modulemap */,
+				CDF75AC3DBBBB665C1F8CC4FDD081B80 /* DLRadioButton-dummy.m */,
+				A3EB2ABE5ACC016CC241B811CFE425BB /* DLRadioButton-Info.plist */,
+				052F4023CE95801D4EE3970C0E069D7A /* DLRadioButton-prefix.pch */,
+				C85D02F29C083845AACB1B4BBFB7FCE9 /* DLRadioButton-umbrella.h */,
+				5A50960EC479F40D1149D9847A0D82A8 /* DLRadioButton.debug.xcconfig */,
+				B3090ACF02A73C68BA09AEF602F12DF2 /* DLRadioButton.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DLRadioButton";
@@ -259,6 +373,13 @@
 			path = "Target Support Files/Pods-ProtectorTests";
 			sourceTree = "<group>";
 		};
+		F5B817FE4233D9819BD7551488BC4D9F /* Two */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Two;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -271,11 +392,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FF126790FE95619D9E999F813721294 /* Headers */ = {
+		83DE94927D700828FBECA9BAA813A5B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE90368E7B6F412024A72FA82E2B508 /* Pods-Protector-umbrella.h in Headers */,
+				99ABEA24A145903D11B5D4888D693753 /* Pods-Protector-ProtectorUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,30 +408,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B128B4A240FCCD468255BCAE59FC7BA4 /* Headers */ = {
+		B09C5CA7BCB982018AE6C585E54FA003 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885A23FCB05D04C31AEB047864D6B0F9 /* Pods-Protector-ProtectorUITests-umbrella.h in Headers */,
+				439DD317EF4A73D51EF65F92CA528F63 /* Pods-Protector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12C6ECFF91279627BAE940309A7DCA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619D4A3F93A9608497B9FFBC482612EC /* CHIOTPField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		31F16FE6F549BCC81D23176C33BCB1AC /* Pods-Protector */ = {
+		2C3802DE25FD87315162839684885A04 /* CHIOTPField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA8D55081117044F2E4255B0EC77438D /* Build configuration list for PBXNativeTarget "Pods-Protector" */;
+			buildConfigurationList = 064BB9B9EECEAD91CDAD507B0C287FB4 /* Build configuration list for PBXNativeTarget "CHIOTPField" */;
 			buildPhases = (
-				5FF126790FE95619D9E999F813721294 /* Headers */,
-				2FD1FB4A0803BCA33EA879DB568E299F /* Sources */,
-				439B57ABFA56C29ED2955E2974E20A20 /* Frameworks */,
-				F93CBAAD66ED70C21B133F6BEF663423 /* Resources */,
+				F12C6ECFF91279627BAE940309A7DCA0 /* Headers */,
+				53165CB09F919299B89E8FD73FF0B2C8 /* Sources */,
+				DE3AC84F048D5D4DB00EC56A4E3F846C /* Frameworks */,
+				3C00B77ADFE56F6BA444BE11E930C17A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB2E0E6579452ECB379F225E9930CD45 /* PBXTargetDependency */,
+			);
+			name = CHIOTPField;
+			productName = CHIOTPField;
+			productReference = D2CE9B449E089CD356CC4A54329FEE79 /* CHIOTPField */;
+			productType = "com.apple.product-type.framework";
+		};
+		31F16FE6F549BCC81D23176C33BCB1AC /* Pods-Protector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D6FC7A1BE5E7B04B4B74E020D45ACC /* Build configuration list for PBXNativeTarget "Pods-Protector" */;
+			buildPhases = (
+				B09C5CA7BCB982018AE6C585E54FA003 /* Headers */,
+				0065FF6DEC09E91EA16BA53997DC3845 /* Sources */,
+				48EA25DEE8FC6F36C853E3C6D3F0BD04 /* Frameworks */,
+				6EF72981BBF1F44FC5D78242E103BAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED45D09ADA909A4D00F40C1C326E2A3 /* PBXTargetDependency */,
+				4E4829390D9BE18E2C5B413079A5F8F9 /* PBXTargetDependency */,
 			);
 			name = "Pods-Protector";
 			productName = Pods_Protector;
@@ -329,7 +477,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2D74FA1E5630360622F53EAACD9A0CD1 /* PBXTargetDependency */,
+				C4522A4FD6D4961151567F4170B68E5A /* PBXTargetDependency */,
 			);
 			name = "Pods-ProtectorTests";
 			productName = Pods_ProtectorTests;
@@ -338,17 +486,18 @@
 		};
 		B93F859A475C0B72E760867FEB6F2280 /* Pods-Protector-ProtectorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5417AA250399DCBBF3636BABEF5CC51B /* Build configuration list for PBXNativeTarget "Pods-Protector-ProtectorUITests" */;
+			buildConfigurationList = D9108E62DE727299BE65A3AD7A25378E /* Build configuration list for PBXNativeTarget "Pods-Protector-ProtectorUITests" */;
 			buildPhases = (
-				B128B4A240FCCD468255BCAE59FC7BA4 /* Headers */,
-				68F3F1E9E281CFA036A4673977F4050A /* Sources */,
-				F7E648F73398369DDBAF187A1F5D70AA /* Frameworks */,
-				58A6825B384BC436A4413536A51BF1A5 /* Resources */,
+				83DE94927D700828FBECA9BAA813A5B5 /* Headers */,
+				755598AF48A1E30C211ECF50AEAA5D64 /* Sources */,
+				7BD57ECD93771C7997DE93D9FE3EAA54 /* Frameworks */,
+				69A7405AFCE90DD7BE9FF18AFA91F3DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF7BFAA5C5B07A02988A6AB85A1876F9 /* PBXTargetDependency */,
+				CC96342F51B85A6C9306F2290392E2F5 /* PBXTargetDependency */,
+				1E9ACB2A337B2B413A942C48D1B17651 /* PBXTargetDependency */,
 			);
 			name = "Pods-Protector-ProtectorUITests";
 			productName = Pods_Protector_ProtectorUITests;
@@ -391,10 +540,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1F4DA96F1395001DE8C5ECD4EAD77C8A /* Products */;
+			productRefGroup = 3EFF1DD364FA42B8D8AEAF72F164931D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				2C3802DE25FD87315162839684885A04 /* CHIOTPField */,
 				BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */,
 				31F16FE6F549BCC81D23176C33BCB1AC /* Pods-Protector */,
 				B93F859A475C0B72E760867FEB6F2280 /* Pods-Protector-ProtectorUITests */,
@@ -411,7 +561,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58A6825B384BC436A4413536A51BF1A5 /* Resources */ = {
+		3C00B77ADFE56F6BA444BE11E930C17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A7405AFCE90DD7BE9FF18AFA91F3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF72981BBF1F44FC5D78242E103BAEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,21 +589,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F93CBAAD66ED70C21B133F6BEF663423 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FD1FB4A0803BCA33EA879DB568E299F /* Sources */ = {
+		0065FF6DEC09E91EA16BA53997DC3845 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4538C8324A3BD8A35EBE633F1242F9BD /* Pods-Protector-dummy.m in Sources */,
+				46AF4BBDFCBCD8E480E479EC847E3542 /* Pods-Protector-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,11 +608,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68F3F1E9E281CFA036A4673977F4050A /* Sources */ = {
+		53165CB09F919299B89E8FD73FF0B2C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57EBCFB1CA3D51CBAB464A240DF6BEFD /* Pods-Protector-ProtectorUITests-dummy.m in Sources */,
+				5D9DBD3DCD3DD7CC74B8691213BF2E0B /* CHIOTPField.swift in Sources */,
+				184AC97C82D418CB1767BF946264F25A /* CHIOTPField-dummy.m in Sources */,
+				DB1349B2AE88662D69CD282A91FB4E7C /* CHIOTPFieldFour.swift in Sources */,
+				25F4247C8510B49D352935BA784792DC /* CHIOTPFieldFourLabel.swift in Sources */,
+				CB388B0CFB5597E5DBA215A4FA90C285 /* CHIOTPFieldOne.swift in Sources */,
+				A61CCA76E7B9AD663CC54E5F4C6290A1 /* CHIOTPFieldOneLabel.swift in Sources */,
+				50BFBACEF843304F9B104A891FA9D96A /* CHIOTPFieldThree.swift in Sources */,
+				39A0A6FD7854941AD9229644035CDB23 /* CHIOTPFieldThreeLabel.swift in Sources */,
+				9BDF600E161D1F30FA6CC596AE211AB6 /* CHIOTPFieldTwo.swift in Sources */,
+				31598CDE82FEDDE9058EB9C730A8C285 /* CHIOTPFieldTwoLabel.swift in Sources */,
+				BE8D87E9D13B2442195F465B84E3DE57 /* OTPLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755598AF48A1E30C211ECF50AEAA5D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3D3CEB670143497B2605DA022ECB50 /* Pods-Protector-ProtectorUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,68 +646,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D74FA1E5630360622F53EAACD9A0CD1 /* PBXTargetDependency */ = {
+		1E9ACB2A337B2B413A942C48D1B17651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */;
+			targetProxy = 761658BAB1A8B068BBCB5C9C1AB75F4D /* PBXContainerItemProxy */;
+		};
+		2ED45D09ADA909A4D00F40C1C326E2A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHIOTPField;
+			target = 2C3802DE25FD87315162839684885A04 /* CHIOTPField */;
+			targetProxy = 8C9C29A75DBBDA8313DBC36BD7010729 /* PBXContainerItemProxy */;
+		};
+		4E4829390D9BE18E2C5B413079A5F8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */;
+			targetProxy = BA42063D2F9E9D359BCFA91D4CC01B44 /* PBXContainerItemProxy */;
+		};
+		C4522A4FD6D4961151567F4170B68E5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Protector";
 			target = 31F16FE6F549BCC81D23176C33BCB1AC /* Pods-Protector */;
-			targetProxy = 6452F2822AFA748DBB4AD66C77625E3F /* PBXContainerItemProxy */;
+			targetProxy = 1A14FF3BA5F4AD2A997FA2DD96A9ACCA /* PBXContainerItemProxy */;
 		};
-		BB2E0E6579452ECB379F225E9930CD45 /* PBXTargetDependency */ = {
+		CC96342F51B85A6C9306F2290392E2F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DLRadioButton;
-			target = BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */;
-			targetProxy = 88C8C4FA0EA738C1EBB054A5BF41842B /* PBXContainerItemProxy */;
-		};
-		EF7BFAA5C5B07A02988A6AB85A1876F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DLRadioButton;
-			target = BED8F38B6D4A3AD6DFF85D18F9F09435 /* DLRadioButton */;
-			targetProxy = 7733E503E698750CE449ED1049E501D9 /* PBXContainerItemProxy */;
+			name = CHIOTPField;
+			target = 2C3802DE25FD87315162839684885A04 /* CHIOTPField */;
+			targetProxy = 468194A98D9F30612F3787318AEF0439 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		189CEC6ACF2BB460499B24790BA212FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64F927C6E9A69670572FD7ED64C5B4CA /* Pods-Protector.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Protector/Pods-Protector-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Protector/Pods-Protector.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1AB09BC073DF050B1120B82E288A2BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80B55099E7394459DF14ED9402711697 /* DLRadioButton.release.xcconfig */;
+			baseConfigurationReference = B3090ACF02A73C68BA09AEF602F12DF2 /* DLRadioButton.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -565,116 +714,7 @@
 			};
 			name = Release;
 		};
-		2DB280362A0C4923E2D4B3BD7317AC8E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D9854DF2E466452721C847D655697B3 /* DLRadioButton.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
-				PRODUCT_MODULE_NAME = DLRadioButton;
-				PRODUCT_NAME = DLRadioButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3FE333A5BB547179B67EDA07E48E43E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2623747D9AFFAC2584428F6A9F0E7D87 /* Pods-Protector.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Protector/Pods-Protector-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Protector/Pods-Protector.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		83DF8F29C307978A2E1E7EC8B4F6EE6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5D5447B27057E306C2B5D094AE3B068 /* Pods-ProtectorTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ProtectorTests/Pods-ProtectorTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ProtectorTests/Pods-ProtectorTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8A21BC09FB6251D0F3959FC2DA1A9FC1 /* Release */ = {
+		24F219955FF88BA894187998F53CDCC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 589249D21747682475BB781683FA7E94 /* Pods-Protector-ProtectorUITests.release.xcconfig */;
 			buildSettings = {
@@ -690,7 +730,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Protector-ProtectorUITests/Pods-Protector-ProtectorUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -712,69 +752,189 @@
 			};
 			name = Release;
 		};
-		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+		2DB280362A0C4923E2D4B3BD7317AC8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A50960EC479F40D1149D9847A0D82A8 /* DLRadioButton.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B5E39EF50DD2165A40D9775C9E0971D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99E8465867E128F62D5DF12809A7E57 /* CHIOTPField.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHIOTPField/CHIOTPField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHIOTPField/CHIOTPField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHIOTPField/CHIOTPField.modulemap";
+				PRODUCT_MODULE_NAME = CHIOTPField;
+				PRODUCT_NAME = CHIOTPField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+		6F1774EBC9BFDD6F74625369E8012382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE7FFF38FCA9D11A215203B2AC49E05 /* Pods-ProtectorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProtectorTests/Pods-ProtectorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProtectorTests/Pods-ProtectorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81C40F3D8E2F32698A849BB6E375788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D5447B27057E306C2B5D094AE3B068 /* Pods-ProtectorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProtectorTests/Pods-ProtectorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProtectorTests/Pods-ProtectorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85DA30515C71AB9076805728DE6CADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2623747D9AFFAC2584428F6A9F0E7D87 /* Pods-Protector.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Protector/Pods-Protector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Protector/Pods-Protector.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -827,7 +987,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -840,44 +1000,69 @@
 			};
 			name = Debug;
 		};
-		AA6709EFBECDDA08E87593A948936CCB /* Debug */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DE7FFF38FCA9D11A215203B2AC49E05 /* Pods-ProtectorTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ProtectorTests/Pods-ProtectorTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ProtectorTests/Pods-ProtectorTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
-		DA684E12DE6DF17D2EFC808DE170AD83 /* Debug */ = {
+		ACD3EF026AB5F21C585650FF0D2F4317 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBDF0B06652FFFC5256ABBD5E56723F3 /* Pods-Protector-ProtectorUITests.debug.xcconfig */;
 			buildSettings = {
@@ -893,7 +1078,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Protector-ProtectorUITests/Pods-Protector-ProtectorUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -914,23 +1099,105 @@
 			};
 			name = Debug;
 		};
+		B899ED58102057E0EE4150E7E09188A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1682A9D9BFC2794DCA4182D17C0117 /* CHIOTPField.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHIOTPField/CHIOTPField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHIOTPField/CHIOTPField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHIOTPField/CHIOTPField.modulemap";
+				PRODUCT_MODULE_NAME = CHIOTPField;
+				PRODUCT_NAME = CHIOTPField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D64CB4B26DC2926F637B956D3ED9D2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F927C6E9A69670572FD7ED64C5B4CA /* Pods-Protector.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Protector/Pods-Protector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Protector/Pods-Protector.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		064BB9B9EECEAD91CDAD507B0C287FB4 /* Build configuration list for PBXNativeTarget "CHIOTPField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				934ED2B84836A780113D1F63484628B2 /* Debug */,
-				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+				B899ED58102057E0EE4150E7E09188A9 /* Debug */,
+				3B5E39EF50DD2165A40D9775C9E0971D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5417AA250399DCBBF3636BABEF5CC51B /* Build configuration list for PBXNativeTarget "Pods-Protector-ProtectorUITests" */ = {
+		21D6FC7A1BE5E7B04B4B74E020D45ACC /* Build configuration list for PBXNativeTarget "Pods-Protector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA684E12DE6DF17D2EFC808DE170AD83 /* Debug */,
-				8A21BC09FB6251D0F3959FC2DA1A9FC1 /* Release */,
+				85DA30515C71AB9076805728DE6CADE2 /* Debug */,
+				D64CB4B26DC2926F637B956D3ED9D2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -938,8 +1205,8 @@
 		7221024F8D5BC3CCAD8089193C403F8E /* Build configuration list for PBXNativeTarget "Pods-ProtectorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA6709EFBECDDA08E87593A948936CCB /* Debug */,
-				83DF8F29C307978A2E1E7EC8B4F6EE6B /* Release */,
+				6F1774EBC9BFDD6F74625369E8012382 /* Debug */,
+				81C40F3D8E2F32698A849BB6E375788F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -953,11 +1220,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA8D55081117044F2E4255B0EC77438D /* Build configuration list for PBXNativeTarget "Pods-Protector" */ = {
+		D9108E62DE727299BE65A3AD7A25378E /* Build configuration list for PBXNativeTarget "Pods-Protector-ProtectorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FE333A5BB547179B67EDA07E48E43E2 /* Debug */,
-				189CEC6ACF2BB460499B24790BA212FE /* Release */,
+				ACD3EF026AB5F21C585650FF0D2F4317 /* Debug */,
+				24F219955FF88BA894187998F53CDCC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

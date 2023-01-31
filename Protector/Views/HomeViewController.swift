@@ -94,7 +94,6 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
             let destinationViewController = segue.destination as! PasswordDetailViewController
             destinationViewController.information = informationsList[indeks!]
             
-            
         }
         
         // Güncelle butonuna bastığım zaman indeks' in nil gelmemesi gerekiyor.
@@ -153,16 +152,14 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         
         let okAction = UIAlertAction.init(title: "Evet", style: .destructive) { action in
             
-            self.userDefault.removeObject(forKey: "Mail")
-            self.userDefault.removeObject(forKey: "Password")
+            //self.userDefault.removeObject(forKey: "Mail")
+            //self.userDefault.removeObject(forKey: "Password")
             
             exit(-1)
             
         }
         
         let cancelAction = UIAlertAction.init(title: "Vazgeç", style: .cancel) { action in
-            
-            
             
         }
         
@@ -297,7 +294,6 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         }
         
         let updateAction = UIContextualAction(style: .normal, title: "Güncelle") { contextualAction, view, boolValue in
-            
             
             self.performSegue(withIdentifier: "goFromHomeToAddOrUpdate", sender: indexPath.row)
             
