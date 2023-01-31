@@ -38,17 +38,28 @@ Protector
 Just download and run with Xcode.
 
 ## ℹ️ How to Use
--
+- First, a new user is created in the system.
+- Confidentiality agreement must be approved when creating a user.
+- Then login to the system.
+- With the plus button, the categories of your passwords are selected and saved.
+- With the submit button, you can share your passwords on the platform you want.
+- You can click on your passwords on the listing screen and see the details.
+- You can also search by site name on the listing screen.
 
 ### 📷 Photo
 <p align="center">
-<img src="https://user-images.githubusercontent.com/49414644/215278969-120b9bcf-b5af-426b-9be6-9005b0401366.png" width="24%" />  
-<img src="https://user-images.githubusercontent.com/49414644/215281951-65e1a807-4cc7-412c-a6d5-0324f8643d44.png" width="24%" />  
-<img src="https://user-images.githubusercontent.com/49414644/215281980-708bdd6c-4ea4-4b93-99df-a74c05ece91b.png" width="24%" />  
-<img src="https://user-images.githubusercontent.com/49414644/215282000-44b6190d-6b86-4de4-b4a9-1f9988665066.png" width="24%" />
-</p>
+<img src="https://user-images.githubusercontent.com/49414644/215350622-4f801696-f4e2-4b93-902d-b17ce07616b2.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/215350641-d63f3ad8-d10a-47d9-a18b-8e5df57a92be.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/215350657-b4e1d503-3613-48cb-998b-9b6b79e22d48.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/215350672-32fcf756-6825-48f8-96fe-db6b6f469695.png" width="24%"/>
+<img src="https://user-images.githubusercontent.com/49414644/215350675-287069a8-8cb1-48a3-a311-1b38a1638ebf.png" width="24%"/>
+<img src="https://user-images.githubusercontent.com/49414644/215350742-5fb3b2ed-b152-4204-a9a7-15ed39580072.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/215350754-4fe718e5-c970-408d-9edf-f9cd77b1d743.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/215350772-6d215d84-2ee9-4f0a-b633-22db41de77d2.png" width="24%"/>
 <p align="left">
-<img src="https://user-images.githubusercontent.com/49414644/215282029-7ffd4bc6-735a-4d8b-b908-05cbd85ddfde.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/215350867-1d8c1210-5833-49b3-b213-0bef1ff7da0a.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/215350942-9b090d38-84ec-45c4-9ae5-63e8bae5bbc7.png" width="24%"/> 
+</p>
 </p>
 
 ### 🎥 Video
