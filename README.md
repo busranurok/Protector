@@ -25,6 +25,7 @@ Protector
 - [CoreData] - Local Database For Storing Data
 - [MessageUI] - A User Interface for Composing Email and Text Messages
 - [UserDefaults] - An Interface to The User’s Defaults Database, Where You Store Key-Value Pairs Persistently Across Launches of Your App
+- [CHIOTPField] - Pin
 
 ### Upcoming Features
 - Login With Google & Login With Microsoft.
@@ -73,3 +74,4 @@ Just download and run with Xcode.
  [CoreData]: <https://developer.apple.com/documentation/coredata>
  [MessageUI]: <https://developer.apple.com/documentation/messageui>
  [UserDefaults]: <https://developer.apple.com/documentation/foundation/userdefaults>
+ [CHIOTPField]: <https://github.com/ChiliLabs/CHIOTPField>
