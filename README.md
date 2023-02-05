@@ -55,8 +55,8 @@ Just download and run with Xcode.
 <img src="https://user-images.githubusercontent.com/49414644/215350657-b4e1d503-3613-48cb-998b-9b6b79e22d48.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/216837066-2066828d-1939-414b-867d-afcdee7ca00b.png" width="24%"/>
 <img src="https://user-images.githubusercontent.com/49414644/216837070-8e68cc5d-8a0c-4c3b-a799-a983b4ccb8fd.png" width="24%"/> 
-<img src="https://user-images.githubusercontent.com/49414644/215350754-4fe718e5-c970-408d-9edf-f9cd77b1d743.png" width="24%"/> 
-<img src="https://user-images.githubusercontent.com/49414644/215350772-6d215d84-2ee9-4f0a-b633-22db41de77d2.png" width="24%"/>
+<img src="https://user-images.githubusercontent.com/49414644/216837200-c8144a08-448f-4e52-94cf-22fb4a973d43.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/216837076-a201fdcc-2fce-4f67-b8b9-b5b78bb15446.png" width="24%"/>
 <p align="left">
 <img src="https://user-images.githubusercontent.com/49414644/215350867-1d8c1210-5833-49b3-b213-0bef1ff7da0a.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350942-9b090d38-84ec-45c4-9ae5-63e8bae5bbc7.png" width="24%"/> 
@@ -77,9 +77,3 @@ Just download and run with Xcode.
  [MessageUI]: <https://developer.apple.com/documentation/messageui>
  [UserDefaults]: <https://developer.apple.com/documentation/foundation/userdefaults>
  [CHIOTPField]: <https://github.com/ChiliLabs/CHIOTPField>
- 
-
-![search](https://user-images.githubusercontent.com/49414644/216837070-8e68cc5d-8a0c-4c3b-a799-a983b4ccb8fd.png)
-![pin](https://user-images.githubusercontent.com/49414644/216837074-634053e6-fc63-4548-b5![pinUpdate](https://user-images.githubusercontent.com/49414644/216837076-a201fdcc-2fce-4f67-b8b9-b5b78bb15446.png)
-7f-a8c6f5832c98.png)
-
