@@ -39,13 +39,15 @@ Protector
 Just download and run with Xcode.
 
 ## ℹ️ How to Use
-- First, a new user is created in the system.
-- Confidentiality agreement must be approved when creating a user.
-- Then login to the system.
-- With the plus button, the categories of your passwords are selected and saved.
+- First step is open the app.
+- You can register your passwords to the system without creating a pin.
+- Plus button is pressed for this action and move categories of your passwords.
+- But if you want your passwords to be secure, you can create a pin by pressing the key picture on the top left of the homepage.
+- If you have created a pin in the system, you can update this pin by clicking the key picture on the home page.
 - With the submit button, you can share your passwords on the platform you want.
-- You can click on your passwords on the listing screen and see the details.
-- You can also search by site name on the listing screen.
+- You can click on your passwords one by one in the list on the home page and see the details.
+- And, You can update or delete your passwords by swiping from right to left.
+- Finally, You can also search by site name on the home page.
 
 ### 📷 Photo
 <p align="center">
