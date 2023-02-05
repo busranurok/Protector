@@ -18,21 +18,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         
         let userDefault = UserDefaults.standard
-        let isPinCreated = userDefault.string(forKey: "isPinCreated") ?? "Empty"
+        let firstPageState = userDefault.string(forKey: "firstPageState") ?? "Empty"
         self.window = UIWindow(windowScene: scene)
         
-        if(isPinCreated == "true") {
+        if(firstPageState == "pinProtection") {
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(identifier: "PinNavigationController") as! UINavigationController
+            let vc = storyboard.instantiateViewController(identifier: "LoginWithPin")
             self.window?.rootViewController = vc
             
+        }else if firstPageState == "launchScreenPresented" {
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(identifier: "HomeNavigationView")
+            self.window?.rootViewController = vc
+        
         }else {
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(identifier: "OnBoardingViewController")
+            let vc = storyboard.instantiateViewController(identifier: "OnBoardingView")
             self.window?.rootViewController = vc
-        
+            
         }
         
         self.window?.makeKeyAndVisible()

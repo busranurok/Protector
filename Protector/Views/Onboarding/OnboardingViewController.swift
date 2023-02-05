@@ -43,7 +43,7 @@ class OnboardingViewController: UIViewController {
         buttonNext.titleLabel?.font =  .systemFont(ofSize: 20.0, weight: .bold)
        
         slides = [
-            OnboardingSlide(title: "Şifre unutma derdine son!", description: "Tek bir şifre ile tüm şifrelerinizi kaydedin.", image: UIImage(named: "password")!),
+            OnboardingSlide(title: "Şifre unutma derdine son!", description: "Belirleyeceğiniz(isteğinize bağlı) bir tek pin ile tüm şifrelerinizi kaydedin.", image: UIImage(named: "password")!),
             OnboardingSlide(title: "Güvenliğinizi önemsiyoruz!", description: "Şifrelerinizi yalnızca sizin telefonunuzda tutuyor ve hiç kimse ile paylaşmıyoruz!", image: UIImage(named: "hacker")!),
             OnboardingSlide(title: "İstediğiniz şekilde paylaşma imkanı!", description: "İster mail, ister sms, ister farklı uygulamalar aracılığıyla şifrelerinizi dilediğiniz ile paylaşabilirsiniz.", image: UIImage(named: "send")!)
              ]
@@ -54,7 +54,7 @@ class OnboardingViewController: UIViewController {
         
         if currentPage == slides.count - 1 {
             
-            let controller = storyboard?.instantiateViewController(identifier: "PinNavigationController") as! UINavigationController
+            let controller = storyboard?.instantiateViewController(identifier: "HomeNavigationView") as! UINavigationController
             controller.modalPresentationStyle = .fullScreen
             controller.modalTransitionStyle = .flipHorizontal
             present(controller, animated: true)

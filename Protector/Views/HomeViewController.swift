@@ -49,6 +49,15 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         //let mail = userDefault.string(forKey: "Mail") ?? "Empty"
         //navigationItem.title = "Selam \(mail)"
         
+        let userDefault = UserDefaults.standard
+        let firstPageState = userDefault.string(forKey: "firstPageState") ?? "Empty"
+        
+        if firstPageState == "Empty" {
+            
+            userDefault.set("launchScreenPresented", forKey: "firstPageState")
+            
+        }
+        
     }
     
     // Sayfalar arası geçişte geri döndüğümde arayüz yebilenebilmesi için viewWillAppear metodu çalışır. viewDidLoad metodu sadece 1 defa çalışır.
@@ -89,7 +98,7 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         
         let indeks = sender as? Int
         
-        if segue.identifier == "goHomeFromToPasswordDetail" {
+        if segue.identifier == "goFromHomeToPasswordDetail" {
             
             let destinationViewController = segue.destination as! PasswordDetailViewController
             destinationViewController.information = informationsList[indeks!]
@@ -145,10 +154,15 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         
     }
     
-    
-    @IBAction func exitApp(_ sender: Any) {
+    @IBAction func openPinScreen(_ sender: Any) {
         
-        let alertController = UIAlertController.init(title: "", message: "Çıkmak istediğinizden emin misiniz?", preferredStyle: .actionSheet)
+        self.performSegue(withIdentifier: "goFromHomeToPin", sender: nil)
+        
+    }
+    
+    //@IBAction func exitApp(_ sender: Any) {
+        
+        /*let alertController = UIAlertController.init(title: "", message: "Çıkmak istediğinizden emin misiniz?", preferredStyle: .actionSheet)
         
         let okAction = UIAlertAction.init(title: "Evet", style: .destructive) { action in
             
@@ -166,9 +180,9 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
         alertController.addAction(okAction)
         alertController.addAction(cancelAction)
         
-        self.present(alertController, animated: true)
+        self.present(alertController, animated: true)*/
         
-    }
+    //}
     
     func fetchAllInformation() {
         
@@ -244,7 +258,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     // Satır seçildiğinde yapılacak işlemler
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        self.performSegue(withIdentifier: "goHomeFromToPasswordDetail", sender: indexPath.row)
+        self.performSegue(withIdentifier: "goFromHomeToPasswordDetail", sender: indexPath.row)
         
     }
     

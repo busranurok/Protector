@@ -23,7 +23,10 @@ class PinViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        userDefault.set("true", forKey: "isPinCreated")
+        navigationController?.navigationBar.tintColor = .gray
+        
+        // ileri sayfalarından sonra pin ekranı geliyordu. O yüzden burada tanımlamıştım.
+        //userDefault.set("true", forKey: "isPinCreated")
         
         fetchPin()
         
@@ -33,7 +36,7 @@ class PinViewController: UIViewController {
             
         }else {
             
-            signInButton.setTitle("Giriş", for: .normal)
+            signInButton.setTitle("Pin Güncelle", for: .normal)
             
         }
         
@@ -72,24 +75,28 @@ class PinViewController: UIViewController {
             newPin.pin = pinTextfield.text
             
             appDelegate.saveContext()
+            
+            userDefault.set("pinProtection", forKey: "firstPageState")
+            
             pinTextfield.text = String(repeating: " ", count: 4)
             pinTextfield.text = ""
             
             let alertController = UIAlertController.init(title: "", message: "Girmiş olduğunuz pin başarıyla kaydedilmiştir.", preferredStyle: .alert)
             
-            let okAction = UIAlertAction.init(title: "Tamam", style: .default, handler: nil)
+            let okAction = UIAlertAction.init(title: "Tamam", style: .default) { action in
+
+                self.performSegue(withIdentifier: "goFromPinDetailToHome", sender: nil)
+                
+            }
             
             alertController.addAction(okAction)
             
             present(alertController, animated: true)
             
-            fetchPin()
-            signInButton.setTitle("Giriş", for: .normal)
-            
         }else {
             
             // DB de kayıtlı bir pin var kullanıcının girmiş olduğu pin ile DB deki kıyaslanacak!
-            if pins.first!.pin == pinTextfield.text {
+            /*if pins.first!.pin == pinTextfield.text {
                 
                 performSegue(withIdentifier: "goFromSignInToHome", sender: nil)
                 
@@ -103,7 +110,22 @@ class PinViewController: UIViewController {
                 
                 present(alertController, animated: true)
                 
+            }*/
+            
+            pins.first?.pin = pinTextfield.text
+            appDelegate.saveContext()
+            
+            let alertController = UIAlertController.init(title: "", message: "Girmiş olduğunuz pin başarıyla güncellenmiştir.", preferredStyle: .alert)
+            
+            let okAction = UIAlertAction.init(title: "Tamam", style: .default) { action in
+
+                self.performSegue(withIdentifier: "goFromPinDetailToHome", sender: nil)
+                
             }
+            
+            alertController.addAction(okAction)
+            
+            present(alertController, animated: true)
             
         }
         
