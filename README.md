@@ -50,11 +50,11 @@ Just download and run with Xcode.
 ### 📷 Photo
 <p align="center">
 <img src="https://user-images.githubusercontent.com/49414644/215909505-1d670c9c-a5c3-420a-bc10-02067cceefca.png" width="24%"/> 
-<img src="https://user-images.githubusercontent.com/49414644/215350622-4f801696-f4e2-4b93-902d-b17ce07616b2.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/216837016-8ef45bca-cead-48bd-ac26-c2a1d3c5896f.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350641-d63f3ad8-d10a-47d9-a18b-8e5df57a92be.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350657-b4e1d503-3613-48cb-998b-9b6b79e22d48.png" width="24%"/> 
-<img src="https://user-images.githubusercontent.com/49414644/215909706-e47d7d96-fd25-4479-8c05-535a6c21b0b4.png" width="24%"/>
-<img src="https://user-images.githubusercontent.com/49414644/215350742-5fb3b2ed-b152-4204-a9a7-15ed39580072.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/216837066-2066828d-1939-414b-867d-afcdee7ca00b.png" width="24%"/>
+<img src="https://user-images.githubusercontent.com/49414644/216837070-8e68cc5d-8a0c-4c3b-a799-a983b4ccb8fd.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350754-4fe718e5-c970-408d-9edf-f9cd77b1d743.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350772-6d215d84-2ee9-4f0a-b633-22db41de77d2.png" width="24%"/>
 <p align="left">
@@ -77,3 +77,9 @@ Just download and run with Xcode.
  [MessageUI]: <https://developer.apple.com/documentation/messageui>
  [UserDefaults]: <https://developer.apple.com/documentation/foundation/userdefaults>
  [CHIOTPField]: <https://github.com/ChiliLabs/CHIOTPField>
+ 
+
+![search](https://user-images.githubusercontent.com/49414644/216837070-8e68cc5d-8a0c-4c3b-a799-a983b4ccb8fd.png)
+![pin](https://user-images.githubusercontent.com/49414644/216837074-634053e6-fc63-4548-b5![pinUpdate](https://user-images.githubusercontent.com/49414644/216837076-a201fdcc-2fce-4f67-b8b9-b5b78bb15446.png)
+7f-a8c6f5832c98.png)
+
