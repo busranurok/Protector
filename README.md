@@ -39,24 +39,26 @@ Protector
 Just download and run with Xcode.
 
 ## ℹ️ How to Use
-- First, a new user is created in the system.
-- Confidentiality agreement must be approved when creating a user.
-- Then login to the system.
-- With the plus button, the categories of your passwords are selected and saved.
+- First step is open the app.
+- You can register your passwords to the system without creating a pin.
+- Plus button is pressed for this action and move categories of your passwords.
+- But if you want your passwords to be secure, you can create a pin by pressing the key picture on the top left of the homepage.
+- If you have created a pin in the system, you can update this pin by clicking the key picture on the home page.
 - With the submit button, you can share your passwords on the platform you want.
-- You can click on your passwords on the listing screen and see the details.
-- You can also search by site name on the listing screen.
+- You can click on your passwords one by one in the list on the home page and see the details.
+- And, You can update or delete your passwords by swiping from right to left.
+- Finally, You can also search by site name on the home page.
 
 ### 📷 Photo
 <p align="center">
 <img src="https://user-images.githubusercontent.com/49414644/215909505-1d670c9c-a5c3-420a-bc10-02067cceefca.png" width="24%"/> 
-<img src="https://user-images.githubusercontent.com/49414644/215350622-4f801696-f4e2-4b93-902d-b17ce07616b2.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/216837016-8ef45bca-cead-48bd-ac26-c2a1d3c5896f.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350641-d63f3ad8-d10a-47d9-a18b-8e5df57a92be.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350657-b4e1d503-3613-48cb-998b-9b6b79e22d48.png" width="24%"/> 
-<img src="https://user-images.githubusercontent.com/49414644/215909706-e47d7d96-fd25-4479-8c05-535a6c21b0b4.png" width="24%"/>
-<img src="https://user-images.githubusercontent.com/49414644/215350742-5fb3b2ed-b152-4204-a9a7-15ed39580072.png" width="24%"/> 
-<img src="https://user-images.githubusercontent.com/49414644/215350754-4fe718e5-c970-408d-9edf-f9cd77b1d743.png" width="24%"/> 
-<img src="https://user-images.githubusercontent.com/49414644/215350772-6d215d84-2ee9-4f0a-b633-22db41de77d2.png" width="24%"/>
+<img src="https://user-images.githubusercontent.com/49414644/216837066-2066828d-1939-414b-867d-afcdee7ca00b.png" width="24%"/>
+<img src="https://user-images.githubusercontent.com/49414644/216837070-8e68cc5d-8a0c-4c3b-a799-a983b4ccb8fd.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/216837200-c8144a08-448f-4e52-94cf-22fb4a973d43.png" width="24%"/> 
+<img src="https://user-images.githubusercontent.com/49414644/216837076-a201fdcc-2fce-4f67-b8b9-b5b78bb15446.png" width="24%"/>
 <p align="left">
 <img src="https://user-images.githubusercontent.com/49414644/215350867-1d8c1210-5833-49b3-b213-0bef1ff7da0a.png" width="24%"/> 
 <img src="https://user-images.githubusercontent.com/49414644/215350942-9b090d38-84ec-45c4-9ae5-63e8bae5bbc7.png" width="24%"/> 
