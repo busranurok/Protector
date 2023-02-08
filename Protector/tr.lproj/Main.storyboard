@@ -193,7 +193,7 @@
             </objects>
             <point key="canvasLocation" x="-42" y="1740"/>
         </scene>
-        <!--Anasayfa-->
+        <!--Ana Sayfa-->
         <scene sceneID="R7J-7G-zjp">
             <objects>
                 <viewController storyboardIdentifier="HomeView" id="Sm0-U7-gEK" customClass="HomeViewController" customModule="Protector" customModuleProvider="target" sceneMemberID="viewController">
@@ -294,7 +294,7 @@
                             <constraint firstItem="Csp-tu-vnu" firstAttribute="top" secondItem="2VC-x1-lZM" secondAttribute="bottom" id="vlr-uE-CYQ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Anasayfa" id="JA8-AK-moA">
+                    <navigationItem key="navigationItem" title="Ana Sayfa" id="JA8-AK-moA">
                         <barButtonItem key="leftBarButtonItem" title="Pin" image="key" catalog="system" id="V6x-RB-Xn4">
                             <connections>
                                 <action selector="openPinScreen:" destination="Sm0-U7-gEK" id="jhn-f5-Lmy"/>
@@ -1291,6 +1291,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
+        <segue reference="wW8-ib-386"/>
         <segue reference="hT5-or-N1Q"/>
         <segue reference="7mZ-PG-Cpw"/>
     </inferredMetricsTieBreakers>
