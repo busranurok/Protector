@@ -25,6 +25,11 @@ class PinViewController: UIViewController {
         
         navigationController?.navigationBar.tintColor = .gray
         
+        signInButton.layer.cornerRadius = 30
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        
         // ileri sayfalarından sonra pin ekranı geliyordu. O yüzden burada tanımlamıştım.
         //userDefault.set("true", forKey: "isPinCreated")
         
@@ -44,9 +49,6 @@ class PinViewController: UIViewController {
         let tapGestureRecognizer3 = UITapGestureRecognizer(target: self, action: #selector(self.tappedOnLabel))
         tapGestureRecognizer3.numberOfTapsRequired = 1
         self.privacyPolicyLabel.addGestureRecognizer(tapGestureRecognizer3)
-        
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         view.addGestureRecognizer(gestureRecognizer)

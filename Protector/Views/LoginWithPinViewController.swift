@@ -10,6 +10,7 @@ import UIKit
 class LoginWithPinViewController: UIViewController {
     
     @IBOutlet weak var pinTextfield: UITextField!
+    @IBOutlet weak var signInButton: UIButton!
     
     let managementContext = appDelegate.persistentContainer.viewContext
     
@@ -17,6 +18,16 @@ class LoginWithPinViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.tintColor = .gray
+        
+        signInButton.layer.cornerRadius = 30
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+        view.addGestureRecognizer(gestureRecognizer)
 
         fetchPin()
         
@@ -68,6 +79,34 @@ class LoginWithPinViewController: UIViewController {
             print("Could not fetch. \(error), \(error.userInfo)")
             
         }
+        
+    }
+    
+    @objc func keyboardWillShow(notification: NSNotification) {
+        
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            
+            if self.view.frame.origin.y == 0 {
+                
+                self.view.frame.origin.y -= keyboardSize.height
+                
+            }
+        }
+        
+    }
+    
+    @objc func keyboardWillHide(notification: NSNotification) {
+        
+        if self.view.frame.origin.y != 0 {
+            
+            self.view.frame.origin.y = 0
+        }
+        
+    }
+    
+    @objc func hideKeyboard() {
+        
+        view.endEditing(true)
         
     }
     

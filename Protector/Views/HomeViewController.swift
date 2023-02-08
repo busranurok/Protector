@@ -119,11 +119,12 @@ class HomeViewController: UIViewController, MFMailComposeViewControllerDelegate 
     
     @IBAction func sendWithMail(_ sender: Any) {
         
-        let firstActivityItem = "Pasword Protector şiflerim"
+        let firstActivityItem = "Protector şifrelerim"
+        informationString = ""
         
         for information in informationsList {
             
-            informationString += "\n\nSite Adınız: \(information.siteName!)\n Kullanıcı Adınız(Ya da E-postanız): \(information.username!)\n Şifreniz: \(information.password!)\n\n"
+            informationString += "Site Adınız: \(information.siteName!)\nKullanıcı Adınız(Ya da E-postanız): \(information.username!)\nŞifreniz: \(information.password!)\n\n"
             
         }
         

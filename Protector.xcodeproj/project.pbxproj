@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F273B492994257F00FB4750 /* LaunchScreen1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F273B482994257F00FB4750 /* LaunchScreen1ViewController.swift */; };
+		1F273B4B299425A400FB4750 /* LaunchScreen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F273B4A299425A400FB4750 /* LaunchScreen2ViewController.swift */; };
+		1F273B4D299425CC00FB4750 /* LaunchScreen3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F273B4C299425CC00FB4750 /* LaunchScreen3ViewController.swift */; };
 		1F33F1352989B36B00023889 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F33F1342989B36B00023889 /* PinViewController.swift */; };
 		1F642D7F29900FF50040B733 /* LoginWithPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F642D7E29900FF50040B733 /* LoginWithPinViewController.swift */; };
 		1F89773528F9E9AF00275733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89773428F9E9AF00275733 /* AppDelegate.swift */; };
@@ -15,7 +18,6 @@
 		1F89773C28F9E9AF00275733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89773A28F9E9AF00275733 /* Main.storyboard */; };
 		1F89773F28F9E9AF00275733 /* Protector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F89773D28F9E9AF00275733 /* Protector.xcdatamodeld */; };
 		1F89774128F9E9AF00275733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F89774028F9E9AF00275733 /* Assets.xcassets */; };
-		1F89774428F9E9AF00275733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89774228F9E9AF00275733 /* LaunchScreen.storyboard */; };
 		1F89774F28F9E9B000275733 /* ProtectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89774E28F9E9B000275733 /* ProtectorTests.swift */; };
 		1F89775928F9E9B000275733 /* ProtectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89775828F9E9B000275733 /* ProtectorUITests.swift */; };
 		1F89775B28F9E9B000275733 /* ProtectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89775A28F9E9B000275733 /* ProtectorUITestsLaunchTests.swift */; };
@@ -66,6 +68,9 @@
 
 /* Begin PBXFileReference section */
 		0E7FECDE16CBD2DDBDFC4C41 /* Pods-Protector-ProtectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Protector-ProtectorUITests.release.xcconfig"; path = "Target Support Files/Pods-Protector-ProtectorUITests/Pods-Protector-ProtectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F273B482994257F00FB4750 /* LaunchScreen1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen1ViewController.swift; sourceTree = "<group>"; };
+		1F273B4A299425A400FB4750 /* LaunchScreen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen2ViewController.swift; sourceTree = "<group>"; };
+		1F273B4C299425CC00FB4750 /* LaunchScreen3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen3ViewController.swift; sourceTree = "<group>"; };
 		1F33F1342989B36B00023889 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
 		1F642D7E29900FF50040B733 /* LoginWithPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithPinViewController.swift; sourceTree = "<group>"; };
 		1F7DF40929819BC900267A83 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
@@ -93,7 +98,6 @@
 		1F9B00CC2985DCB200D8B0A9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1F9B00CE2985DDC400D8B0A9 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		1F9B00D02985E26000D8B0A9 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
-		1FFF4F71299024EB00632F74 /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FFF4F72299024F100632F74 /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FFF4F73299024F200632F74 /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27B6FAA707BEFE66E5F67B3C /* Pods_ProtectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +138,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F273B472994255E00FB4750 /* LaunchScreens */ = {
+			isa = PBXGroup;
+			children = (
+				1F273B482994257F00FB4750 /* LaunchScreen1ViewController.swift */,
+				1F273B4A299425A400FB4750 /* LaunchScreen2ViewController.swift */,
+				1F273B4C299425CC00FB4750 /* LaunchScreen3ViewController.swift */,
+			);
+			path = LaunchScreens;
+			sourceTree = "<group>";
+		};
 		1F7DF40829819BC900267A83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,7 +205,6 @@
 				1F89776728F9EA2B00275733 /* GmailFloating.swift */,
 				1F89773A28F9E9AF00275733 /* Main.storyboard */,
 				1F89774028F9E9AF00275733 /* Assets.xcassets */,
-				1F89774228F9E9AF00275733 /* LaunchScreen.storyboard */,
 				1F89774528F9E9AF00275733 /* Info.plist */,
 				1F89773D28F9E9AF00275733 /* Protector.xcdatamodeld */,
 			);
@@ -226,6 +239,7 @@
 		1F9B00C62985D7B500D8B0A9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1F273B472994255E00FB4750 /* LaunchScreens */,
 				1F89773828F9E9AF00275733 /* SignInViewController.swift */,
 				1F89776D28F9F64400275733 /* SignUpViewController.swift */,
 				1F89776928F9EFBA00275733 /* HomeViewController.swift */,
@@ -386,7 +400,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F89774428F9E9AF00275733 /* LaunchScreen.storyboard in Resources */,
 				1F89774128F9E9AF00275733 /* Assets.xcassets in Resources */,
 				1F89773C28F9E9AF00275733 /* Main.storyboard in Resources */,
 			);
@@ -517,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F89773F28F9E9AF00275733 /* Protector.xcdatamodeld in Sources */,
+				1F273B492994257F00FB4750 /* LaunchScreen1ViewController.swift in Sources */,
 				1F89773928F9E9AF00275733 /* SignInViewController.swift in Sources */,
 				1F89776E28F9F64400275733 /* SignUpViewController.swift in Sources */,
 				1F89777028F9FF5200275733 /* AddOrUpdatePasswordViewController.swift in Sources */,
@@ -525,12 +539,14 @@
 				1F89776828F9EA2B00275733 /* GmailFloating.swift in Sources */,
 				1F9B00CD2985DCB200D8B0A9 /* UIView+Extension.swift in Sources */,
 				1F33F1352989B36B00023889 /* PinViewController.swift in Sources */,
+				1F273B4D299425CC00FB4750 /* LaunchScreen3ViewController.swift in Sources */,
 				1F89777228FA028C00275733 /* PasswordDetailViewController.swift in Sources */,
 				1F9B00CF2985DDC400D8B0A9 /* OnboardingSlide.swift in Sources */,
 				1F89773728F9E9AF00275733 /* SceneDelegate.swift in Sources */,
 				1F642D7F29900FF50040B733 /* LoginWithPinViewController.swift in Sources */,
 				1F89776C28F9F5C700275733 /* PasswordRowTableViewCell.swift in Sources */,
 				1F9B00CA2985D80A00D8B0A9 /* OnboardingViewController.swift in Sources */,
+				1F273B4B299425A400FB4750 /* LaunchScreen2ViewController.swift in Sources */,
 				1F89776A28F9EFBA00275733 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,14 +598,6 @@
 				1FFF4F73299024F200632F74 /* tr */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1F89774228F9E9AF00275733 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FFF4F71299024EB00632F74 /* tr */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -726,7 +734,6 @@
 				INFOPLIST_FILE = Protector/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -763,7 +770,6 @@
 				INFOPLIST_FILE = Protector/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";

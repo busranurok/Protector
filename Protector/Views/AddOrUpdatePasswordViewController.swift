@@ -116,6 +116,16 @@ class AddOrUpdatePasswordViewController: UIViewController {
                     
                     self.textfieldPassword.secureText = !self.textfieldPassword.secureText
                     
+                    if self.textfieldPassword.secureText {
+                        
+                        imageViewLock.image = UIImage(named: "unlock")
+                        
+                    }else {
+                        
+                        imageViewLock.image = UIImage(named: "lock")
+                        
+                    }
+                    
                 }
                 
             }

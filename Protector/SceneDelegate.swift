@@ -24,19 +24,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if(firstPageState == "pinProtection") {
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(identifier: "LoginWithPin")
+            let vc = storyboard.instantiateViewController(identifier: "LaunchScreen2View")
             self.window?.rootViewController = vc
             
         }else if firstPageState == "launchScreenPresented" {
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(identifier: "HomeNavigationView")
+            let vc = storyboard.instantiateViewController(identifier: "LaunchScreen3View")
             self.window?.rootViewController = vc
         
         }else {
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(identifier: "OnBoardingView")
+            let vc = storyboard.instantiateViewController(identifier: "LaunchScreen1View")
             self.window?.rootViewController = vc
             
         }
