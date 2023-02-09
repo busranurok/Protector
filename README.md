@@ -1,7 +1,7 @@
 # 📋 Project Name
 Protector
 
-<a href="https://apps.apple.com/tr/app/mars-explorer/id1667968298?l=tr" target="_blank"><img src="https://user-images.githubusercontent.com/49414644/215282404-d930a425-165c-435a-b2ac-a97bddfeb162.png" alt="Download on the App Store" height="90"/></a>
+<a href="https://apps.apple.com/tr/app/protector/id1667545548?l=tr" target="_blank"><img src="https://user-images.githubusercontent.com/49414644/215282404-d930a425-165c-435a-b2ac-a97bddfeb162.png" alt="Download on the App Store" height="90"/></a>
 
 ## 👉 Follow This List
 
@@ -37,6 +37,8 @@ Protector
 
 ## 🔧 How to Setup
 Just download and run with Xcode.
+### Compatibility
+>  macOS 11.0 or top version and Requires a Mac with an Apple M1 or higher chip.
 
 ## ℹ️ How to Use
 - First step is open the app.
